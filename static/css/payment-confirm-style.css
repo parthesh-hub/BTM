@@ -1,0 +1,110 @@
+*{
+    font-family: 'Product Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url('../images/payment.png');
+}
+
+.app-container{
+    height: 600px;
+    width: 350px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.top-box{
+    font-size: 25px;
+    height: 150px;
+    background-color: 9100fb;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.top-box p{
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.left-icon{
+    float: left;
+    margin-left: 30px;
+}
+
+
+.right-icon{
+    float:right;
+    margin-right: 30px;
+}
+
+.middle-box{
+    height: 150px;
+    background-image: linear-gradient(#580e8f, #9200ff);
+    margin: -70px 30px 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.middle-box h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: normal;;
+}
+
+.middle-box h1 span{
+    font-size: 20px;
+    margin-left: 5px;
+    bottom: 18px;
+    position: relative;
+}
+
+.process h2{
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    bottom: 18px;
+    position: relative;
+}
+
+.process span{
+    color: silver;
+    margin-left: 29%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.paid{
+    display: none;
+    text-align: center;
+}
+
+.paid p{
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    bottom: 18px;
+    position: relative;
+}
+
+.paid span{
+    color: white;
+    margin-left: 10% ;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 20px;
+}

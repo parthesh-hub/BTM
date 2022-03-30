@@ -1,0 +1,221 @@
+*{
+font-family: 'Product Sans', sans-serif;
+}
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+/*----------------navigation bar---------------------------*/
+.container1{
+  width: 100%;
+  min-height: 50px;
+  background-color: black;
+  background: linear-gradient(to top left, #f2f2f2, #000000);
+  overflow: hidden;
+  text-decoration: none;
+}
+/* Style the links inside the navigation bar */
+.container1 a {
+  /* color: #f2f2f2;*/
+  color: black;
+   text-align: center;
+   padding: 10px 15px;
+   text-decoration: none;
+   font-size: 19px;
+   float: right;
+   line-height: 2;
+ }
+ #navitem{
+   color: black;
+ }
+ #navitem:hover{
+   color: #f2f2f2;
+   background-color: black;
+ }
+ 
+ #logo:hover{
+   color: #f2f2f2;
+   background-color: black;
+     float: left;
+   }
+ 
+ /* Change the color of links on hover */
+ .container1 a:hover {
+   background-color: black;
+   color: white;
+   text-decoration: none;
+ }
+ 
+ /* Add a color to the active/current link */
+ #active {
+   background-color: #000000;
+   color: white;
+ }
+ 
+
+/*----------------navigation ends---------------------------*/
+#notice{
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+#p{
+ width: 5%;
+ display: inline-block;
+}
+.split{
+  display: inline-block;
+  position:relative;
+ }
+
+.left{
+  display: inline-block;
+  position: absolute;
+}
+.right{
+  margin-left: 15%;
+}
+
+#uploadimage :hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+.user{
+  /* background-color: #f6f5f5; */
+  background-color: #32e0c4;
+	padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.book{
+  background-color: #e8e8e8;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+#showdate{
+  margin-left: 40px;
+  padding-top: 20px;
+}
+.apptable{
+  min-height: 282px;
+  background-color: #e8e8e8;
+}
+.apptablehead{
+  padding: 15px 0;
+  background-color: #f6f5f5;
+  /* background-color: #32e0c4; */
+  margin:0;
+}
+.apptablehead h2{
+  padding-left: 40px;
+}
+#nextbtn{
+  margin-left:90%;
+}
+
+#Tab{
+
+   margin-bottom: 0px;
+}
+.bookmsg{
+  
+  color:red;
+  margin-left:3%;
+}
+
+.my-custom-scrollbar {
+position: relative;
+height: 200px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+#side-logo{
+  position: absolute;
+  height: 200px;
+  width:100%;
+}
+
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+
+ /*----------------- Footer starts------------------------------*/
+
+ .footer{
+  top:0%;
+  background-color: black;
+  color: gold;
+ }
+
+ /* --------------footer ends-------------------- */
+ @media (max-width: 991px) {
+
+.left,.user{ display: none;
+            }
+
+.left{width: 0%;}
+.right{margin-left: 0px;
+}
+#Tab{
+  min-height: 500px;
+}
+
+#nextbtn{
+  margin-top: 5%;
+  margin-left:0%;
+}
+
+
+  
+
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
+
+  #navbarTogglerDemo02{
+      text-align: center;
+  }
+  .ul{
+    
+      justify-content: center;
+      display: flex;
+  }
+  .carouselslidecontainer2{
+  display:none;
+}
+
+}
+
+
+
+
+@media (max-width: 991px) {
+  #active {
+    background-color: transparent;
+    color: black;
+  }
+  
+} 

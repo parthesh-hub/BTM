@@ -1,0 +1,175 @@
+*{
+    font-family: 'Product Sans', sans-serif;
+    margin: 0;
+    padding-top: 0;
+   }
+      .carousel-control-next,
+      .carousel-control-prev {
+          filter: invert(100%);
+      }
+      /*----------------navigation bar---------------------------*/
+      .container1{
+        width: 100%;
+        min-height: 50px;
+        background-color: black;
+        background: linear-gradient(to top left, #f2f2f2, #000000);
+        overflow: hidden;
+        text-decoration: none;
+        position: fixed;
+        z-index: 1;
+      }
+
+      /* Style the links inside the navigation bar */
+      .container1 a {
+       /* color: #f2f2f2;*/
+       color: #000000;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 17px;
+        float: right;
+        line-height: 2;
+      }
+
+      #logo{
+        color: #f2f2f2;
+          float: left;
+        }
+
+      /* Change the color of links on hover */
+      .container1 a:hover {
+        background-color: #000000;
+        color: #F5F5F5;
+        text-decoration: none;
+      }
+
+      /* Add a color to the active/current link */
+      .container1 a.active {
+        background-color: #000000;
+        color: #F5F5F5;
+      }
+
+      /*----------------navigation ends---------------------------*/
+
+      .hero{
+          position: absolute;
+          overflow: hidden;
+          width: 100%;
+          top:6%;
+          height: 94%;
+          background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url('../images/forgotpass1.jpg');
+          background-position: center;
+          background-size: cover;
+
+
+      }
+
+      .form-box{
+          width: 380px;
+          height: 520px;
+          position: relative;
+          margin: 6% auto;
+          background: #b76e79;
+            background: -webkit-linear-gradient(top, #b18322, #c5af62);
+            background: -o-linear-gradient(top, #b18322, #c5af62);
+            background: -moz-linear-gradient(top, #b18322, #c5af62);
+            background: linear-gradient(top, #b18322, #c5af62);
+            padding: 5px;
+          overflow: hidden;
+      }
+
+      .title-form{
+          font-size: 28px;
+          font-weight: 700;
+          margin: 15%;
+          text-align: center;
+      }
+
+      .input-group{
+          top: 180px;
+          position: absolute;
+          width: 280px;
+          transition: .5s;
+      }
+
+      .input-field{
+          color: #333;
+          width: 100%;
+          padding: 10px 0;
+          margin: 5px 0;
+          border-left: 0;
+          border-right: 0;
+          border-top: 0;
+          border-bottom: 1px solid #777;
+          outline: none;
+          background: transparent;
+      }
+
+      ::placeholder{
+        color: #333;
+      }
+
+      .submit-btn{
+          width:85%;
+          padding: 10px 30px;
+          cursor: pointer;
+          display: block;
+          margin: auto;
+          background: linear-gradient(to right, #b18322, #c5af62);
+          border: white solid;
+          outline: none;
+          border-radius: 30px;
+      }
+
+      .check-box{
+          margin: 30px 10px 30px 0;
+      }
+
+      span{
+          color: #333;
+          font-size: 12px;
+          bottom: 105px;
+          position: absolute;
+      }
+
+      #fgtpass{
+          position: relative;
+          font-size: 14px;
+          text-align: center;
+          top: 30px;
+          left: 90px;
+          text-align: center;
+      }
+
+      p{
+          position: relative;
+          top: 50px;
+          text-align: center;
+          font-size: 14px;
+          color: #444;
+      }
+
+      #gotoreg{
+          position: relative;
+          font-size: 14px;
+          padding-left: 10px;
+      }
+
+      #fgtpass{
+          left: 50px;
+      }
+
+      #regular{
+          left: 450px;
+      }
+      @media (max-width:991px){
+        .form-box{
+          margin:18% auto;
+        }
+        #login{
+          margin-top: 13%;
+        }
+        #register{
+          margin-top: 13%;;
+        }
+      }

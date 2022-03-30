@@ -1,0 +1,220 @@
+*{
+font-family: 'Product Sans', sans-serif;
+  }
+  .body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+      filter: invert(100%);
+  }
+
+
+/*----------------navigation bar---------------------------*/
+.container1{
+  width: 100%;
+  min-height: 50px;
+  background-color: black;
+  background: linear-gradient(to top left, #f2f2f2, #000000);
+  overflow: hidden;
+  text-decoration: none;
+  position: sticky;
+  z-index:2;
+}
+/* Style the links inside the navigation bar */
+.container1 a {
+  color: #000000;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  line-height: 2;
+}
+
+#logo{
+  color: #f2f2f2;
+    float: left;
+}
+
+/* Change the color of links on hover */
+.container1 a:hover {
+  background-color: #000000;
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.container1 a.active {
+  background-color: #000000;
+  color: #F5F5F5;
+}
+
+/*----------------navigation ends---------------------------*/
+
+
+
+/* ---------------- body starts ---------------------------- */
+.split{
+  display: inline-block;
+  position:relative;
+ }
+
+
+/* --------------------left------------------- */
+
+
+.left{
+  display: inline-block;
+  position: absolute;
+  width: 15%;
+  background: #1a1c20;
+  height:100%;
+}
+
+.info-editing hr{
+  border:1px solid;color:#f4f4f4;margin-bottom:18%;opacity:0.5;
+}
+
+
+#side-logo{
+  position: absolute;
+  height: 200px;
+  width:100%;
+}
+
+/* --------------------left ends------------------- */
+
+
+/* --------------------right------------------- */
+
+  /* ------------appointments---------- */
+
+.apptable{
+  min-height: 450px;
+  background-color: #e8e8e8;
+}
+.apptablehead{
+  padding: 2% 0;
+  background-color: #f6f5f5;
+  margin:0;
+}
+.apptablehead h2{
+  padding-left: 3%;
+}
+
+
+.apptheader{
+  display:block;
+  padding-bottom: 15px;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+
+
+/* #Tab{
+
+  margin: 0;
+  padding: 0;
+} */
+
+.historyheader{
+  padding-top: 2%;
+  padding-left: 3%;
+  background-color: #32e0c4;
+}
+.histoptions{
+background-color: #e8e8e8;
+min-height: fit-content;
+}
+
+#hopts1{
+
+    display: inline-block;
+    width: 33%;
+    background-color: rgb(163, 161, 161);
+    margin-top:10px;
+    margin-left: 3px;
+    /* height: 200px; */
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    border: 1px solid blue;
+}
+
+#hopts2{
+
+    display: inline-block;
+    width: 33%;
+    background-color: rgb(163, 161, 161);;
+    /* height: 200px; */
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    border: 1px solid blue;
+}
+
+#hopts3{
+
+    display: inline-block;
+    width: 33%;
+    background-color: rgb(163, 161, 161);;
+    /* height: 200px; */
+    text-align: center;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    border: 1px solid blue;
+}
+
+
+#histbtn1, #histbtn2, #histbtn3{
+
+  margin-top:10px;
+
+}
+
+
+.histtableheader{
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+
+
+
+/* ----------------right ends--------------------------------- */
+
+/*----------------- Footer starts------------------------------*/
+
+.footer{
+top:0%;
+background-color:  #1a1c20;
+color: gold;
+font-weight: bold;
+}
+
+/* ----------------------footer ends--------------------------- */
+
+/* --------------------body ends------------------------------ */

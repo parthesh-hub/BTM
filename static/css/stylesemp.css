@@ -1,0 +1,142 @@
+*{
+  font-family: 'Product Sans', sans-serif;
+    }
+    .body{
+      margin: 0;
+      padding: 0;
+    }
+    
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+    }
+    /*----------------navigation bar---------------------------*/
+    .container1{
+      width: 100%;
+      min-height: 50px;
+      background-color: black;
+      background: linear-gradient(to top left, #f2f2f2, #000000);
+      overflow: hidden;
+      text-decoration: none;
+    }
+    /* Style the links inside the navigation bar */
+    .container1 a {
+     /* color: #f2f2f2;*/
+     color: #000000;
+      text-align: center;
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 17px;
+      float: right;
+      line-height: 2;
+    }
+    
+    #logo{
+      color: #f2f2f2;
+        float: left;
+      }
+    
+    /* Change the color of links on hover */
+    .container1 a:hover {
+      background-color: #000000;
+      color: #F5F5F5;
+      text-decoration: none;
+    }
+    
+    /* Add a color to the active/current link */
+    .container1 a.active {
+      background-color: #000000;
+      color: #F5F5F5;
+    }
+    
+    /*----------------navigation ends---------------------------*/
+    #notice{
+      margin-left: 40px;
+      padding-top: 10px;
+      padding-bottom: 25px;
+    }
+    
+    #p{
+     width: 5%;
+     display: inline-block;
+    }
+    .split{
+      /* display: inline-block; */
+      position:relative;
+     }
+    
+    .left{
+      height:720px;
+      position: absolute;
+      overflow: hidden;
+    }
+    
+    .right{
+      overflow: hidden;
+    }
+    .user{
+      background-color: #cf7500;
+        padding-top: 40px;
+      padding-bottom: 15px;
+    }
+    
+    .book{
+      height: 536px;
+      overflow: hidden;
+      background-color: #f0a500;
+      padding-top: 40px;
+      padding-bottom: 0px;
+    }
+    #showdate{
+      margin-left: 40px;
+      padding-top: 20px;
+    }
+    .apptable{
+      height: 100%;
+      margin-top: 20px;
+      display: none;
+      overflow: hidden;
+      background-color: #e8e8e8;
+    }
+    .apptablehead{
+      padding: 15px 0;
+      background-color: #cf7500;
+      margin:0;
+    }
+    .apptablehead h2{
+      padding-left: 40px;
+    }
+    #Tab{
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .my-custom-scrollbar {
+    position: relative;
+    height: 235px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+     /*----------------- Footer starts------------------------------*/
+     .footer{
+      top:0%;
+      background-color:#1a1c20;
+      color: gold;
+      font-weight: 800;
+
+     }

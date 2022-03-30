@@ -1,0 +1,198 @@
+*{
+font-family: 'Product Sans', sans-serif;
+font-family: 'Product Sans', sans-serif;
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+/*----------------navigation bar---------------------------*/
+.container1{
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    background: linear-gradient(to top left, #f2f2f2, #000000);
+    overflow: hidden;
+    text-decoration: none;
+}
+/* Style the links inside the navigation bar */
+.container1 a {
+    /* color: #f2f2f2;*/
+    color: #000000;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    line-height: 2;
+}
+
+#logo{
+    color: #f2f2f2;
+    float: left;
+    }
+
+/* Change the color of links on hover */
+.container1 a:hover {
+    background-color: #000000;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.container1 a.active {
+    background-color: #000000;
+    color: #F5F5F5;
+}
+
+/*----------------navigation ends---------------------------*/
+
+
+
+/*-------------- side-bar -------------------*/
+
+.split{
+    display: inline-block;
+    position:relative;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+}
+
+
+#uploadimage :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#side-logo{
+    position: absolute;
+    height: 200px;
+    width:100%;
+}
+
+/*-------------- side-bar ends -------------------*/
+
+
+
+/*-------------- middle container ends -------------------*/
+
+
+
+.user{
+    background-color: #32e0c4;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+#p{
+width: 5%;
+display: inline-block;
+}
+
+.book{
+background-color: #a6a6a4;
+padding-top: 40px;
+padding-bottom: 50px;
+
+}
+
+
+
+#first-col{
+    margin-top: 20px;
+    width:41%;
+}
+
+
+#second-col{
+margin-top: 20px;
+width:41%;
+left:58%;
+/* background-color: red; */
+}
+
+
+#rows{
+    width:100%;
+    background-color: gold;
+    border: 2px solid #f4f4f4;
+    border-radius: 8px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-content: center;
+    min-height: 50px;
+}
+
+
+
+#services p{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p input{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 4px;
+}
+
+#slots1,#slots2,#slots3,#slots4,#slots5,#slots6,#slots7,#slots8,#slots9,#slots10{
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0;
+
+}
+#slots1 input,#slots2 input,#slots3 input,#slots4 input,#slots5 input,#slots6 input,#slots7 input,#slots8 input,#slots9 input, #slots10 input{
+    border: 2px solid #f4f4f4 ;
+    border-radius: 8px;
+    margin-left:5px;
+    margin-bottom: 0;
+}
+
+#slots1 label,#slots2 label,#slots3 label,#slots4 label,#slots5 label,#slots6 label,#slots7 label,#slots8 label, #slots9 label, #slots10 label{
+    margin-right:5px;
+      margin-bottom: 0;
+}
+
+
+.btns{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  padding-bottom: 20px;
+  background-color: #a6a6a4;
+  width: 100%;
+  padding-left: 70%;
+}
+#backbtn{
+	margin-right: 20px;
+	margin-left: 60px;
+}
+
+
+/*-------------- middle container ends -------------------*/
+
+
+/*----------------- Footer starts------------------------------*/
+
+.footer{
+background-color: black;
+color: gold;
+}
+
+/* --------------footer ends-------------------- */

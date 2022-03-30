@@ -1,0 +1,192 @@
+*{
+    font-family: 'Product Sans', sans-serif;
+    font-family: 'Product Sans', sans-serif;
+      -webkit-box-sizing: content-box;
+          -moz-box-sizing: content-box;
+                box-sizing: content-box;
+      }
+      .row{
+          box-sizing: content-box;
+      }
+      *:before,
+      *:after {
+        -webkit-box-sizing: content-box;
+           -moz-box-sizing: content-box;
+                box-sizing: content-box;
+      }
+      .body{
+        margin: 0;
+        padding: 0;
+      }
+      .carousel-control-next,
+      .carousel-control-prev {
+          filter: invert(100%);
+      }
+      /*----------------navigation bar---------------------------*/
+      .container1{
+        width: 100%;
+        min-height: 50px;
+        background-color: black;
+        background: linear-gradient(to top left, #f2f2f2, #000000);
+        overflow: hidden;
+        text-decoration: none;
+      }
+      /* Style the links inside the navigation bar */
+      .container1 a {
+        /* color: #f2f2f2;*/
+        color: black;
+         text-align: center;
+         padding: 10px 15px;
+         text-decoration: none;
+         font-size: 19px;
+         float: right;
+         line-height: 2;
+       }
+       #navitem{
+         color: black;
+       }
+       #navitem:hover{
+         color: #f2f2f2;
+         background-color: black;
+       }
+       
+       #logo:hover{
+         color: #f2f2f2;
+         background-color: black;
+           float: left;
+         }
+       
+       /* Change the color of links on hover */
+       .container1 a:hover {
+         background-color: black;
+         color: white;
+         text-decoration: none;
+       }
+       
+       /* Add a color to the active/current link */
+       #active {
+         background-color: #000000;
+         color: white;
+       }
+       
+    
+      /*----------------navigation ends---------------------------*/
+     
+      #notice{
+        margin-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+      }
+      #p{
+       width: 5%;
+       display: inline-block;
+      }
+      .split{
+        display: inline-block;
+        position:relative;
+        /* padding-bottom: 90px; */
+        height: 650px;
+       }
+       .single-checkbox{
+         margin-top: 15px;
+       }
+      .left{
+        display: inline-block;
+       
+        position: absolute;
+      }
+      .right{margin-left: 15%;}
+    
+      .user{
+        background-color: #cf7500;
+        padding-top: 40px;
+        padding-bottom: 15px;
+      }
+      .appt{
+        padding: 50px;
+        background-color: #686d76;
+      }
+      /*Flip the Card*/
+      /*
+      flip card
+      */
+      .card{
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+      }
+      .card-title{
+         text-align: center;
+      }
+      .secondrow{
+        margin:0;
+      }
+    
+      .selectedserv{
+          background-color: #cf7500;
+      }
+
+
+      #footer{
+        padding-top:15px;
+        color: gold;
+        font-weight: 800;
+        text-align: center;
+      }
+
+      .sametimeerrmsg{
+        text-align: center;
+        margin-top: 20px;
+      }
+
+
+    
+      /************Responsive*****************/
+  @media (max-width: 991px) {
+    #active {
+      background-color: transparent;
+      color: black;
+    }
+
+    .left,.user{ display: none;
+                }
+    
+    .left{width: 0%;}
+    .right{margin-left: 0px;
+    }
+    
+    .split{
+
+      min-height: 400px;
+    }
+
+    #wrapperclass{
+    	overflow-x: scroll;
+    }
+
+      
+
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+#navbarTogglerDemo02{
+    text-align: center;
+}
+.ul{
+  
+    justify-content: center;
+    display: flex;
+}
+.sametimeerrmsg{
+ 
+  margin-top: 0px;
+  padding-top: 10px;
+}
+    
+    }
+      
+  

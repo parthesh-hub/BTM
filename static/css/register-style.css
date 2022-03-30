@@ -1,0 +1,262 @@
+*{
+font-family: 'Product Sans', sans-serif;
+	margin: 0;
+	padding-top: 0;
+   }
+	  .carousel-control-next,
+	  .carousel-control-prev {
+		  filter: invert(100%);
+	  }
+	  /*----------------navigation bar---------------------------*/
+	  .container1{
+		width: 100%;
+		min-height: 50px;
+		background-color: black;
+		background: linear-gradient(to top left,  #f2f2f2, #000000);
+		overflow: hidden;
+		text-decoration: none;
+		position: fixed;
+		z-index: 1;
+	  }
+
+	  /* Style the links inside the navigation bar */
+	  .container1 a {
+	   /* color: #f2f2f2;*/
+	   color: #000000;
+		text-align: center;
+		padding: 10px 15px;
+		text-decoration: none;
+		font-size: 17px;
+		float: right;
+		line-height: 2;
+	  }
+
+	  #logo{
+		color: #f2f2f2;
+		  float: left;
+		}
+
+	  /* Change the color of links on hover */
+	  .container1 a:hover {
+		background-color: #000000;
+		color: #F5F5F5;
+		text-decoration: none;
+	  }
+
+	  /* Add a color to the active/current link */
+	  .container1 a.active {
+		background-color: #000000;
+		color: #F5F5F5;
+	  }
+
+	  /*----------------navigation ends---------------------------*/
+
+.hero{
+	position: absolute;
+	width: 100%;
+	top:6%;
+	height: 97%;
+	background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url('../images/registrationbg.jpg');
+	background-position: center;
+	background-size: cover;
+
+
+}
+
+.form-box{
+	width: 760px;
+	height: 580px;
+	position: relative;
+	margin: 2% auto;
+	background: #adac66;
+  	background: -webkit-linear-gradient(top, #e7dec8, #d9ecf2);
+  	background: -o-linear-gradient(top, #e7dec8, #d9ecf2);
+  	background: -moz-linear-gradient(top, #e7dec8, #d9ecf2);
+  	background: linear-gradient(top, #e7dec8, #d9ecf2);
+	padding: 5px;
+	overflow: hidden;
+}
+
+.title-form{
+	font-family: 'Product Sans', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin: 2%;
+	text-align: center;
+}
+.button-box{
+  background-color: #fff;
+  width: 250px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  padding: 10px 40px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#btn{
+  border: black solid;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 140px;
+  height: 95%;
+  background: linear-gradient(to right, #d9ecf2, #e7dec8);
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.input-group1{
+	left: 80px;
+	top: 150px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+.input-group2{
+	left: 400px;
+	top: 150px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #555;
+	outline: none;
+	background: transparent;
+}
+
+label{
+	color: #777;
+	font-size: 14px;
+}
+
+.submit-div1{
+	margin-top: 360px;
+}
+
+.submit-btn{
+	position: relative;
+	margin-top: 260px;
+	margin-left: 50px;
+	width:50%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #e7dec8, #d9ecf2);
+	border: black solid;
+	outline: none;
+	border-radius: 30px;
+}
+
+#forgot{
+	position: relative;
+	font-size: 14px;
+	text-align: center;
+	top: 30px;
+	left: 90px;
+	text-align: center;
+}
+
+a{
+	padding: 10px;
+}
+
+p{
+	position: relative;
+	top: 30px;
+	bottom: 100px;
+	text-align: center;
+	font-size: 14px;
+	color: #444;
+}
+#error_msg{
+
+	font-weight: bold;
+	color:red;
+	margin-right: 50px;
+	margin-top: 15px;
+	width: 600px;
+	text-align: center;
+}
+#error_msg1{
+	font-weight: bold;
+	color:red;
+	margin-right: 50px;
+	margin-top: 15px;
+	width: 600px; 
+}
+#gotolog{
+	position: relative;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+#prime1{
+	left: 50px;
+}
+
+#prime2{
+	left: 450px;
+}
+
+#regular1{
+	left: 950px;
+}
+
+#submit1{
+	left: 50px;
+}
+.submit-div1{
+
+	padding: 45px 0 0 25px;
+}
+#submit2{
+	left: 950px;
+}
+
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+	}
+	
+
+	 @media (max-width: 991px) {
+		#register{
+			margin-top:54px;
+	  
+		  }  
+		  #login{
+			margin-top:54px;
+	  
+		  }  
+	.hero{
+		margin-top: 60px;
+		overflow:scroll;
+    }
+	} 
